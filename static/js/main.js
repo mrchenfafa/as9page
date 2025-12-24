@@ -42,9 +42,9 @@ const mobileUrls = [
     "https://as9.zone",
     "https://as91.pages.dev"];
 const desktopUrls = [
-    "https://d11s29giwnr7ge.cloudfront.net/?id=709408808",
-    "https://140.150.32.223:5001/?id=709408808",
-    "https://d2dqdvpwqwwlot.cloudfront.net/?id=709408808"
+    "https://d1dkj136l6p7jm.cloudfront.net",
+    "https://d2axsp2w5u13gx.cloudfront.net",
+    "https://duew5d4neidu5.cloudfront.net"
 ];
 
 // 闅忔満閫夋嫨涓€涓綉鍧€
@@ -69,3 +69,4 @@ if (verificationStatus) {
     });
 
 }
+
