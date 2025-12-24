@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV88-Liên kết an toàn</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <section id="section-brand">
+        <div class="logo">
+            <img src="static/images/logo.png" alt="Logo">
+        </div>
+        <div class="ambassador">
+            <div class="ambassador-text">
+                <h1></h1>
+                <h1></h1>
+                <div class="ambassador-club">
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="ambassador-img">
+                <div class="ambassador-img-flag">
+                    <div class="ambassador-img-flag-relative">
+                    </div>
+                </div>
+                <div class="ambassador-img-okvip">
+                </div>
+            </div>
+        </div>
+        <div id="access-area">
+            <img src="static/images/approveIcon.png" alt="Logo">
+            <button id="verification-status" class="access-btn">TRUY CẬP NGAY</button>
+            <script src="static/js/main.js"></script>
+        </div>
+    </section>
+
+    <section id="section-content">
+        <div class="section-content-bubble">
+            <div class="bubble"></div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('#section-content .section-content-bubble .bubble')
+            .addEventListener('animationend', function () {
+                document.body.classList.add('body-newstyle');
+                document.querySelector('#access-area').style.display = 'flex';
+            });        
+    </script>
+    
+</body>
+</html>
