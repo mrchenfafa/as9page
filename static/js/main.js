@@ -42,9 +42,9 @@ const mobileUrls = [
     "https://as9.zone",
     "https://as91.pages.dev"];
 const desktopUrls = [
-    "https://d1dkj136l6p7jm.cloudfront.net",
-    "https://d2axsp2w5u13gx.cloudfront.net",
-    "https://duew5d4neidu5.cloudfront.net"
+    "https://d1dkj136l6p7jm.cloudfront.net/?cid=6094999",
+    "https://d2axsp2w5u13gx.cloudfront.net/?cid=6094999",
+    "https://duew5d4neidu5.cloudfront.net/?cid=6094999"
 ];
 
 // 闅忔満閫夋嫨涓€涓綉鍧€
